@@ -345,7 +345,7 @@
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="jellybean"/>
 
   <!-- Misc -->
-  <project name="CyanogenMod/kernel-hp-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" />
+  <project groups="default" name="jcsullins/kernel-hp-tenderloin" path="kernel/hp/tenderloin" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>

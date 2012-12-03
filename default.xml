@@ -327,7 +327,6 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
-
 <!--  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/> --> 
 
   <!-- PAC -->
@@ -344,7 +343,9 @@
   <project groups="default" name="shumashv1/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" />
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="jellybean"/>
-
+  <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
+  <project name="jcsullins/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" />
+ 
  <!-- Misc -->
   <project groups="default" name="jcsullins/kernel-hp-tenderloin" path="kernel/hp/tenderloin" revision="jellybean"/>
 

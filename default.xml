@@ -347,7 +347,7 @@
   <project name="jcsullins/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" />
  
  <!-- Misc -->
-  <project groups="default" name="jcsullins/kernel-hp-tenderloin" path="kernel/hp/tenderloin" revision="jellybean"/>
+  <project groups="default" name="CyanogenMod/kernel-hp-tenderloin" path="kernel/hp/tenderloin" revision="ics"/>
 
   <project groups="default" name="PAC-man/pac" path="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>

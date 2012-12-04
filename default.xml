@@ -3,7 +3,7 @@
   <remote fetch="https://android.googlesource.com" name="aosp"/>
   <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
   <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
-<!-->  <remote fetch="ssh://git@github.com" name="private"/> -->
+  <remote fetch="ssh://git@github.com" name="private"/>
   
   <default remote="github" 
            revision="refs/heads/jellybean"

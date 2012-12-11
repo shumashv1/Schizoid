@@ -299,6 +299,7 @@
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
   <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
+  <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
   <!-- AOSP -->
   <project groups="default" name="platform/prebuilt" path="prebuilt" remote="aosp" revision="jb-dev" />

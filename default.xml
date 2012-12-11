@@ -234,6 +234,7 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
   <project groups="default" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
   <project groups="default" name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" />
+  <project groups="default" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" />
   <project groups="default" name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" />
@@ -321,8 +322,8 @@
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- AOKP -->
-  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" />
-  <project groups="default" name="AOKP/packages_apps_DeskClock" path="packages/apps/DeskClock" revision="jb"/>
+  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jellybean" />
+<!--  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> -->
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />

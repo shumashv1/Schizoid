@@ -336,11 +336,10 @@
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
-
+  <project groups="default" name="PAC_Man/android_frameworks_base" path="frameworks/base" />
   <!-- shumashv1 -->
   <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
   <project groups="default" name="shumashv1/android_vendor_pac" path="vendor/pac" revision="jellybean"/>
-  <project groups="default" name="shumashv1/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>

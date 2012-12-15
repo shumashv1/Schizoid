@@ -345,7 +345,7 @@
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/>
-  <!--  <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
+  <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
   <!-- <project name="jcsullins/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
  
  <!-- Misc -->

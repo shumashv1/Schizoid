@@ -323,6 +323,7 @@
 
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> 
+  <project groups="default" name="AOKP/android_packages_apps_Settings" path="packages/apps/Settings" revision="jb-mr1" />
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
@@ -334,7 +335,6 @@
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
-  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 

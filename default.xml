@@ -344,8 +344,8 @@
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
-  <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/>
-  <project groups="default" name="Dorregaray/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> 
+  <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1" />
+  <project groups="default" name="Dorregaray/hp-kernel-tenderloin" path="kernel/hp/tenderloin" revision="ics" /> 
  
  <!-- Misc -->
 

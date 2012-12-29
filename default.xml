@@ -324,7 +324,7 @@
 
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> 
-  <project groups="default" name="AOKP/android_packages_apps_Settings" path="packages/apps/Settings" revision="jb-mr1" />
+  <project groups="default" name="AOKP/packages_apps_Settings" path="packages/apps/Settings" revision="jb-mr1" />
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />

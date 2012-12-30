@@ -10,6 +10,10 @@
            sync-j="16"
            sync-c="true" />
 
+ <remote   name="aokp"
+           fetch="https://github.com/"
+           review="gerrit.sudoservers.com" />
+
  <remote   name="paranoid"
            fetch="https://git@bitbucket.org/paranoidandroid/" />
 

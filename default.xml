@@ -327,10 +327,11 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
+  <project groups="default" name="ParanoidAndroid/cm_frameworks_base" path="frameworks/base" revision="jellybean" />
   <!--project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/> -->
 
   <!-- PAC -->
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
+
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
@@ -346,7 +347,7 @@
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/>
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
-  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> 
+<!--  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
  
  <!-- Misc -->
 

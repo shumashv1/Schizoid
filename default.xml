@@ -10,18 +10,15 @@
            sync-j="16"
            sync-c="true" />
 
- <remote   name="aokp"
-           fetch="https://github.com/AOKP/"
-           review="gerrit.sudoservers.com" />
-
  <remote   name="paranoid"
            fetch="https://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <!-- AOKP -->
+  <!-- AOKP 
   <project name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> 
+   -->
 
   <!-- PA -->
   <project name="ParanoidAndroid/android_external_doclava" path="external/doclava" />

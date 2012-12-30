@@ -1,4 +1,4 @@
-lmh<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com" name="aosp"/>
   <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
@@ -346,13 +346,10 @@ lmh<?xml version="1.0" encoding="UTF-8"?>
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/>
-<<<<<<< HEAD
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
   <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> 
-=======
 <!--  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
   <project groups="default" name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" revision="jellybean" />
->>>>>>> 80c8cda5162b073e8faa88dc2e84ce99af23d10a
  
  <!-- Misc -->
 

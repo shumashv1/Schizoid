@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+lmh<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com" name="aosp"/>
   <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
@@ -327,10 +327,11 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
+  <project groups="default" name="ParanoidAndroid/cm_frameworks_base" path="frameworks/base" revision="jellybean" />
   <!--project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/> -->
 
   <!-- PAC -->
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
+
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
@@ -341,12 +342,17 @@
   <!-- shumashv1 -->
   <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
   <project groups="default" name="shumashv1/android_vendor_pac" path="vendor/pac" revision="testing"/>
-  <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
+  <project groups="default" name="CyanogenMod/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jellybean" />
   <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/>
+<<<<<<< HEAD
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
   <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> 
+=======
+<!--  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
+  <project groups="default" name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" revision="jellybean" />
+>>>>>>> 80c8cda5162b073e8faa88dc2e84ce99af23d10a
  
  <!-- Misc -->
 

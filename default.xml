@@ -349,8 +349,7 @@
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
   <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> 
 <!--  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
-  <project groups="default" name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" revision="jellybean" />
- 
+
  <!-- Misc -->
 
   <project groups="default" name="PAC-man/pac" path="pac" >

@@ -332,7 +332,8 @@
   <!-- PAC -->
 
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />  <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
+  <project groups="default" name="AOKP/android_frameworks_base" path="frameworks/base" revision="jb-mr1" />  
+  <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />

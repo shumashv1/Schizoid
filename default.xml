@@ -343,7 +343,7 @@
   <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
   <project groups="default" name="shumashv1/android_vendor_pac" path="vendor/pac" revision="jellybean"/>
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jellybean" />
-  <project groups="default" name="shumashv1/android_vendor_pa" path="vendor/pa" revision="testing"/>
+  <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="testing"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 <!--  <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/> -->

@@ -349,10 +349,4 @@
 <!--  <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/> -->
 <!--  <project groups="default" name="shumashv1/hp-kernel-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="jellybean" /> -->
 
- <!-- Misc -->
-
-  <project groups="default" name="PAC-man/pac" path="pac" >
-    <copyfile dest="build-pac.sh" src="build.sh"/>
-  </project>
-
-</manifest>
+ </manifest>

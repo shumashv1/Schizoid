@@ -326,8 +326,8 @@
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
+  <project groups="default" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" path="packages/apps/ParanoidWallpapers" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
-  <!--project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/> -->
 
   <!-- PAC -->
 

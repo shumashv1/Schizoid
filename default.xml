@@ -297,7 +297,7 @@
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
-  <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="hp/kernel/tenderloin" revision="ics" />
+  <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="kernel/hp/tenderloin" revision="ics" />
   <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
 
   <!-- AOSP -->

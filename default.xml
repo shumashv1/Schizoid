@@ -293,11 +293,11 @@
   <project groups="default" name="CyanogenMod/android_system_security" path="system/security" />
   <project groups="default" name="CyanogenMod/android_system_su" path="system/su" />
   <project groups="default" name="CyanogenMod/android_system_vold" path="system/vold" />
-<!--  <project groups="default" name="CyanogenMod/android_vendor_cm" path="vendor/cm" /> -->
   <project groups="default" name="CyanogenMod/android_vendor_qcom_opensource_v8" path="vendor/qcom/opensource/v8" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
+  <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="hp/kernel/tenderloin" revision="ics" />
   <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
 
   <!-- AOSP -->
@@ -346,7 +346,9 @@
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
-<!--  <project groups="default" name="shumashv1/vendor_aokp" path="vendor/aokp" revision="jb-mr1"/> -->
+
+<!-- Misc -->
+<project name="TheMuppets/proprietary_vendor_hp" path="vendor/hp" remote="github" revision="jellybean" />
 <!--  <project groups="default" name="MrSGA/bricked-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> -->
 
  </manifest>

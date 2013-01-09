@@ -341,7 +341,7 @@
 
   <!-- shumashv1 -->
   <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
-  <project groups="default" name="shumashv1/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jellybean" />
+  <project groups="default" name="shumashv1/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jb" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>

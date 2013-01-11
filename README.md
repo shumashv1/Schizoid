@@ -18,7 +18,7 @@ The inital sync takes as much time to complete as a build, so expect to wait a L
 
 To build, make sure you're in your build directory, i.e. ~/android/skz, or whatever, then type in the terminal window
 
-    .build/envsetup.sh (note the space between . and build)
+    . build/envsetup.sh (note the space between . and build)
 
 When that completes, type "lunch" and select the number corresponding to "skz_tenderloin-userdebug" (7 on mine)
 

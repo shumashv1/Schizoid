@@ -32,7 +32,6 @@
            remote="aosp"
            sync-j="4" />
 
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />

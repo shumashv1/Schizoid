@@ -4,6 +4,7 @@
   <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
   <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
   <remote fetch="ssh://git@github.com" name="private"/>
+  <remote fetch="https://github.com/iGio90/" name="jellybam"/>
   
   <default remote="github" 
            revision="refs/heads/jellybean"
@@ -332,15 +333,16 @@
   <!-- PAC -->
 
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />  
+<!--  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
+   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" /> -->
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
-  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
+
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <!-- shumashv1 -->
-  <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
+  <project groups="default" name="shumashv1/Schizoid" path="android" revision="testing" />
   <project groups="default" name="shumashv1/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jb" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
@@ -348,6 +350,8 @@
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
 <!-- Misc -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="jellybam" revision="jellybam-4.2.1" />
 <!-- <project name="TheMuppets/proprietary_vendor_hp" path="vendor/hp" remote="github" revision="jellybean" /> -->
 <!--  <project groups="default" name="MrSGA/bricked-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> -->
 

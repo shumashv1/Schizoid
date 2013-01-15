@@ -376,14 +376,13 @@
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/jellybam" name="vendor_jellybam" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="fullbuild" name="jellybam_full_build" remote="jellybam" revision="jellybam-4.2.1" />
 
   <!-- shumashv1 -->
   <project remote="shumash" name="Schizoid" path="android" revision="staging" />
   <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="cm-10.1"/>
-
+  <project path="vendor/jellybam" name="vendor_jellybam" remote="shumash" revision="jellybam-4.2.1" />
  <!-- Misc -->
   <project remote="cm" name="android_hardware_atheros_wlan" path="hardware/atheros/wlan"  revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />

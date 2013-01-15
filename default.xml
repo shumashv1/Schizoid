@@ -386,7 +386,6 @@
   <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project remote="shumash" name="android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="jellybean"/>
-  <project remote="cm" name="android_hardware_atheros_wlan" path="hardware/atheros/wlan"  revision="jellybean" />
 
  <!-- Misc -->
   <project remote="cm" name="android_hardware_atheros_wlan" path="hardware/atheros/wlan"  revision="jellybean" />

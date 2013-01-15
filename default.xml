@@ -333,8 +333,8 @@
   <!-- PAC -->
 
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-<!--  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
-   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" /> -->
+  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
+<!--   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" /> -->
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
 
@@ -350,7 +350,6 @@
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
 <!-- Misc -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="jellybam" revision="jellybam-4.2.1" />
 <!-- <project name="TheMuppets/proprietary_vendor_hp" path="vendor/hp" remote="github" revision="jellybean" /> -->
 <!--  <project groups="default" name="MrSGA/bricked-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> -->

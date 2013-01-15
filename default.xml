@@ -384,7 +384,7 @@
 
   <!-- shumashv1 -->
   <project remote="shumash" name="Schizoid" path="android" revision="staging" />
-  <project remote="shumash" name="android_vendor_pac" path="vendor/pac" revision="jellybean"/>
+<!--  <project remote="shumash" name="android_vendor_pac" path="vendor/pac" revision="jellybean"/> -->
   <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="jellybean"/>
   <project remote="shumash" name="android_vendor_skz" path="vendor/skz" revision="jellybean"/>

@@ -25,9 +25,6 @@
   <remote  name="shumash"
 	   fetch="https://github.com/shumashv1/" />
 
-  <remote  name="gh"
-	   fetch="https://github.com/" />
-
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -384,7 +381,6 @@
   <project remote="shumash" name="Schizoid" path="android" revision="jellybean" />
   <project remote="shumash" name="android_vendor_pac" path="vendor/pac" revision="jellybean"/>
   <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
-  <project remote="shumash" name="android_vendor_pa" path="vendor/pa" revision="testing"/>
   <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="jellybean"/>
 
  <!-- Misc -->

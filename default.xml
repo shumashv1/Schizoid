@@ -13,10 +13,7 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="gh"
-	   fetch="https://github.com/" />
-
- <remote  name="jellybam"
+  <remote  name="jellybam"
 	   fetch="https://github.com/iGio90/" />
 
   <remote  name="pa"
@@ -28,20 +25,14 @@
   <remote  name="shumash"
 	   fetch="https://github.com/shumashv1/" />
 
+  <remote  name="github"
+	   fetch="https://github.com/" />
+
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
-
-  <project path="build" name="android_build" remote="jellybam" revision="jellybam-4.2.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="jellybam" name="builder" remote="jellybam" revision="jellybam-4.2.1" >
-    <copyfile src="rom-build.sh" dest="rom-build.sh" />
-    <copyfile src="all-build.sh" dest="all-build.sh" />
-    <copyfile src="fullbuild.sh" dest="fullbuild.sh" />
-  </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />
@@ -221,7 +212,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" />
+<!--  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -280,11 +271,11 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb-mr1" /> 
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -293,7 +284,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="gh" revision="jellybean" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -303,9 +294,9 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="jellybam" revision="jellybam-4.2.1" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="shumash" revision="jb" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="jellybam" revision="jellybam-4.2.1" />
+<!--  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="jellybam" revision="jellybam-4.2.1" /> -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -322,12 +313,12 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" /> 
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="gh" revision="jellybean"/>
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -367,7 +358,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="android_system_core" remote="aokp" revision="jb-mr1" />
+<!--  <project path="system/core" name="android_system_core" remote="aokp" revision="jb-mr1" /> -->
   <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="system/media" name="platform/system/media" />
@@ -376,13 +367,26 @@
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="fullbuild" name="jellybam_full_build" remote="jellybam" revision="jellybam-4.2.1" />
+
+  <!-- PA -->
+  <project remote="pa" name="android_external_doclava" path="external/doclava" revision="jellybean" />
+  <project remote="pa" name="cm_system_core" path="system/core" revision="jellybean" />
+
+  <!-- PAC -->
+  <project remote="pac" name="android_packages_apps_Contacts" path="packages/apps/Contacts" revision="jellybean" />
+  <project remote="pac" name="android_packages_apps_Phone" path="packages/apps/Phone" revision="jellybean" />
+  <project remote="pac" name="android_packages_apps_Mms" path="packages/apps/Mms" revision="jellybean" />
+  <project remote="pac" name="android_packages_apps_Settings" path="packages/apps/Settings" revision="jellybean" />
+  <project remote="pac" name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="jellybean" />
+  <project remote="pac" name="android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
+  <project remote="pac" name="android_frameworks_base" path="frameworks/base" revision="jellybean" />
 
   <!-- shumashv1 -->
   <project remote="shumash" name="Schizoid" path="android" revision="staging" />
   <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
-  <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="cm-10.1"/>
-  <project path="vendor/jellybam" name="vendor_jellybam" remote="shumash" revision="jellybam-4.2.1" />
+  <project remote="shumash" name="android_vendor_skz" path="vendor/skz" revision="jellybean"/>
+  <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="jellybean"/>
+
  <!-- Misc -->
   <project remote="cm" name="android_hardware_atheros_wlan" path="hardware/atheros/wlan"  revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />

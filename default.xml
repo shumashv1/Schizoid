@@ -33,7 +33,7 @@
            sync-j="16" />
 
   <project name="CyanogenMod/android_build" path="build" >
-    <copyfile dest="Makefile" src="core/root.mk"/>
+    <copyfile dest="Makefile" src="core/root.mk" revision="jellybean"/>
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" />

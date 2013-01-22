@@ -32,7 +32,7 @@
            remote="aosp"
            sync-j="16" />
 
-  <project name="CyanogenMod/android_build" path="build" revision="jellybean">
+  <project name="CyanogenMod/android_build" remote="github" path="build" revision="jellybean">
     <copyfile dest="Makefile" src="core/root.mk" revision="jellybean"/>
   </project>
 

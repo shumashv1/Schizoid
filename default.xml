@@ -32,8 +32,14 @@
            remote="aosp"
            sync-j="16" />
 
-  <project name="CyanogenMod/android_build" remote="github" path="build" revision="jellybean">
-    <copyfile dest="Makefile" src="core/root.mk" revision="jellybean"/>
+  <project path="build" name="android_build" remote="jellybam" revision="jellybam-4.2.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="jellybam" name="builder" remote="jellybam" revision="jellybam-4.2.1" >
+    <copyfile src="rom-build.sh" dest="rom-build.sh" />
+    <copyfile src="all-build.sh" dest="all-build.sh" />
+    <copyfile src="fullbuild.sh" dest="fullbuild.sh" />
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" />

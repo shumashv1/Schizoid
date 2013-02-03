@@ -320,9 +320,6 @@
   <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
-  <!-- AOKP -->
-<!--  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> -->
-
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" path="packages/apps/ParanoidWallpapers" />

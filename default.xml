@@ -331,7 +331,6 @@
   <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />  
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
-  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
@@ -341,6 +340,7 @@
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
+  <project groups="default" name="shumashv1/android_packages_apps_Settings" path="packages/apps/Settings" revision="jellybean" />
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
 <!-- Misc -->

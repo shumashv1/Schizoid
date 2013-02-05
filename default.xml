@@ -343,6 +343,9 @@
   <project groups="default" name="shumashv1/android_packages_apps_Settings" path="packages/apps/Settings" revision="jellybean" />
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
+  <project groups="default" name="shumashv1/skz" path="skz" >
+    <copyfile dest="build-skz.sh" src="build.sh"/>
+  </project>
 <!-- Misc -->
 
  </manifest>

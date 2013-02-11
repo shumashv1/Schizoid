@@ -375,7 +375,7 @@
   <project path="android" name="shumashv1/Schizoid"  revision="staging" />
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="jb-camera" />
   <project path="packages/apps/ROMControl" name="shumasvhv1/packages_apps_ROMControl" revision="jb" />
-  <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="jellybean"/>
+  <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="testing"/>
   <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="jellybean"/>
 
   <project path="skz" name="shumashv1/skz"  >

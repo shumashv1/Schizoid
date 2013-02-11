@@ -228,6 +228,7 @@
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan"  revision="jellybean" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
@@ -360,7 +361,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="jb-mr1-release" />
 
   <!-- PA -->
-  <project remote="pa" name="android_external_doclava" path="external/doclava" revision="jellybean" />
+  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava"  revision="jellybean" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
@@ -371,17 +372,16 @@
   <project path="system/core" name="PAC-man/android_system_core" />
 
   <!-- shumashv1 -->
-  <project remote="shumash" name="Schizoid" path="android" revision="staging" />
-  <project remote="shumash" name="android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
-  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="shumash" revision="jb" />
-  <project remote="shumash" name="android_vendor_skz" path="vendor/skz" revision="jellybean"/>
-  <project remote="shumash" name="android_vendor_cm" path="vendor/cm" revision="jellybean"/>
+  <project path="android" name="shumashv1/Schizoid"  revision="staging" />
+  <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="jb-camera" />
+  <project path="packages/apps/ROMControl" name="shumasvhv1/packages_apps_ROMControl" revision="jb" />
+  <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="jellybean"/>
+  <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="jellybean"/>
 
-  <project groups="default" name="shumashv1/skz" path="skz" >
+  <project path="skz" name="shumashv1/skz"  >
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
 
  <!-- Misc -->
-  <project remote="cm" name="android_hardware_atheros_wlan" path="hardware/atheros/wlan"  revision="jellybean" />
 
 </manifest>

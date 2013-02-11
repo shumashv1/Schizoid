@@ -221,7 +221,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" />
+<!--  <project path="frameworks/base" name="android_frameworks_base" remote="jellybam" revision="jellybam-4.2.1" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -386,7 +386,7 @@
   <project remote="pac" name="android_packages_apps_Mms" path="packages/apps/Mms" revision="jellybean" />
   <project remote="pac" name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="jellybean" />
   <project remote="pac" name="android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
-  <!--  <project remote="pac" name="android_frameworks_base" path="frameworks/base" revision="jellybean" /> -->
+  <project remote="pac" name="android_frameworks_base" path="frameworks/base" revision="cm-10.1" /> -->
 
   <!-- shumashv1 -->
   <project remote="shumash" name="Schizoid" path="android" revision="staging" />

@@ -222,7 +222,7 @@
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
-  <project path="frameworks/opt/telephony" name="SickleRoms/android_frameworks_opt_telephony" revision="jellybean-4.2"/>
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
@@ -306,7 +306,7 @@
   <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" revision="jellybean"/>
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
@@ -366,14 +366,14 @@
 
   <!-- PAC -->
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
-  <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
-  <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="system/core" name="PAC-man/android_system_core" />
 
   <!-- shumashv1 -->
   <project path="android" name="shumashv1/Schizoid"  revision="staging" />
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="cm-10.1" />
+  <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" revision="jellybean"/>
   <project path="packages/apps/ROMControl" name="shumashv1/packages_apps_ROMControl" revision="jb" />
   <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="testing"/>
   <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="cm-10.1"/>

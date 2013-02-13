@@ -376,7 +376,7 @@
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="jb-camera" />
   <project path="packages/apps/ROMControl" name="shumashv1/packages_apps_ROMControl" revision="jb" />
   <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="testing"/>
-  <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="jellybean"/>
+  <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="cm-10.1"/>
 
   <project path="skz" name="shumashv1/skz" revision="jellybean" >
     <copyfile dest="build.sh" src="build.sh"/>

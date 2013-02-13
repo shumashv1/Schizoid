@@ -366,7 +366,7 @@
 
   <!-- PAC -->
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="system/core" name="PAC-man/android_system_core" />
 

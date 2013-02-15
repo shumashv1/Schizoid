@@ -365,7 +365,7 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
 <!--  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" revision="08742dd141fe7490962d32a6fd2c88bcc1afefb1" /> -->

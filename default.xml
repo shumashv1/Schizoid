@@ -347,5 +347,8 @@
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
 <!-- Misc -->
+  <project groups="default" name="Onskreen/cornerstone/jellybean" path="build/target/product" revision="master" />
+  <project groups="default" name="Onskreen/cornerstone/jellybean" path="frameworks/base" revision="master" />
+  <project groups="default" name="Onskreen/cornerstone/jellybean" path="packages/apps/CSPanel" revision="master" />
 
  </manifest>

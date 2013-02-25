@@ -4,7 +4,6 @@
   <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
   <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
   <remote fetch="ssh://git@github.com" name="private"/>
-  <remote fetch="https://github.com/iGio90/" name="jellybam"/>
   
   <default remote="github" 
            revision="refs/heads/jellybean"
@@ -228,7 +227,7 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" />
   <project groups="default" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
-  <project groups="default" name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" />
+  <project groups="default" name="Evervolv/android_packages_apps_Browser" path="packages/apps/Browser" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Calculator" path="packages/apps/Calculator" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />
@@ -298,7 +297,6 @@
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
-<!--  <project groups="default" name="CyanogenMod/hp-kernel-tenderloin" path="kernel/hp/tenderloin" revision="ics" /> -->
   <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
 
   <!-- AOSP -->
@@ -322,19 +320,15 @@
   <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
-  <!-- AOKP -->
-<!--  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" /> -->
-
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" path="packages/apps/ParanoidWallpapers" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
 
   <!-- PAC -->
-   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" revision="jellybean" />
-  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
+
+  <project groups="default" name="PAC-man/old_packages_apps_Contacts" path="packages/apps/Contacts" /> 
+  <project groups="default" name="PAC-man/old_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
@@ -342,13 +336,16 @@
   <!-- shumashv1 -->
   <project groups="default" name="shumashv1/Schizoid" path="android" revision="testing" />
   <project groups="default" name="shumashv1/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jb" />
+  <project groups="default" name="shumashv1/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
   <project groups="default" name="shumashv1/android_vendor_cm" path="vendor/cm" revision="jellybean"/>
+  <project groups="default" name="shumashv1/android_packages_apps_Settings" path="packages/apps/Settings" revision="jellybean" />
   <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 
+  <project groups="default" name="shumashv1/skz" path="skz" >
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
 <!-- Misc -->
-<!-- <project name="TheMuppets/proprietary_vendor_hp" path="vendor/hp" remote="github" revision="jellybean" /> -->
-<!--  <project groups="default" name="MrSGA/bricked-tenderloin" path="kernel/hp/tenderloin" remote="github" revision="ics" /> -->
 
  </manifest>

@@ -227,7 +227,7 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" />
   <project groups="default" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
-  <project groups="default" name="Evervolv/android_packages_apps_Browser" path="packages/apps/Browser" />
+  <project groups="default" name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" revision="cm-10.1"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_Calculator" path="packages/apps/Calculator" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />

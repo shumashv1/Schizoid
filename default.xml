@@ -372,7 +372,6 @@
   <project path="system/core" name="PAC-man/android_system_core" />
 
   <!-- shumashv1 -->
-  <project path="android" name="shumashv1/Schizoid"  revision="staging" />
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="cm-10.1" />
   <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" revision="cm-10.1"/>
   <project path="packages/apps/ROMControl" name="shumashv1/packages_apps_ROMControl" revision="jb-4.2" /> -->
@@ -382,6 +381,7 @@
   <project path="skz" name="shumashv1/skz" revision="jellybean" >
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
+  <project path="android" name="shumashv1/Schizoid"  revision="staging" />
 
  <!-- Misc -->
 

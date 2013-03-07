@@ -200,6 +200,7 @@
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="Evervolv/android_external_compat-wireless-3.5-rc3-1-sn" revision="jellybean" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="CyanogenMod/android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
@@ -375,7 +376,7 @@
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin"  revision="cm-10.1" />
   <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" revision="cm-10.1"/>
   <project path="packages/apps/ROMControl" name="shumashv1/packages_apps_ROMControl" revision="jb-4.2" /> -->
-  <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="testing"/>
+  <project path="vendor/skz" name="shumashv1/android_vendor_skz" revision="jb-4.2"/>
   <project path="vendor/cm" name="shumashv1/android_vendor_cm" revision="cm-10.1"/>
 
   <project path="skz" name="shumashv1/skz" revision="jellybean" >

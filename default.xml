@@ -378,8 +378,8 @@
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/pac" name="shumashv1/android_vendor_pac" />
   <project path="vendor/google" name="PAC-man/android_vendor_google" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" revision="cm-10.1" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" revision="jellybean" />
+  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="jellybean" />
 
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>

@@ -372,7 +372,7 @@
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
-  <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
+  <project path="packages/apps/ROMControl" name="shumashv1/packages_apps_ROMControl" revision="jb"/>
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />

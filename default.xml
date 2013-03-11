@@ -388,8 +388,5 @@
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
-  <project name="shumashv1/skz" path="skz" >
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
 <!-- Misc -->
 </manifest>

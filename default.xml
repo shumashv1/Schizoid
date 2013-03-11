@@ -14,7 +14,9 @@
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="16" />
+
+  <!-- SKZ manifest v2.0.0 for cm-10.1| 11-Mar-2013-->
 
   <!-- CM -->
   <project path="build" name="PAC-man/android_build">
@@ -231,6 +233,7 @@
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan"  revision="jellybean" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
@@ -382,8 +385,14 @@
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" revision="cm-10.1" />
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
 
-  <project path="pac" name="PAC-man/pac" >
-    <copyfile dest="build-pac.sh" src="build.sh"/>
-  </project>
+  <!-- shumashv1 -->
+  <project name="shumashv1/Schizoid" path="android" revision="staging" />
+  <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" />
+  <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
+  <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
+  <project name="shumashv1/skz" path="skz" >
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+<!-- Misc -->
 </manifest>

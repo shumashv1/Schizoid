@@ -240,6 +240,18 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/qcom/audio" name="Evervolv/android_hardware_qcom_audio" revision="jellybean"/>
+  <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" revision="jellybean"/>
+  <project path="hardware/qcom/bt" name="Evervolv/android_hardware_qcom_bt" revision="jellybean" />
+  <project path="hardware/qcom/display" name="Evervolv/android_hardware_qcom_display" revision="jellybean"/>
+  <project path="hardware/qcom/display-caf" name="Evervolv/android_hardware_qcom_display-caf" revision="jellybean"/>
+  <project path="hardware/qcom/gps" name="Evervolv/android_hardware_qcom_gps" revision="jellybean"/>
+  <project path="hardware/qcom/keymaster" name="Evervolv/android_hardware_qcom_keymaster" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media" revision="jellybean" />
+  <project path="hardware/qcom/msm8960" name="Evervolv/android_hardware_qcom_msm8960" revision="jellybean" />
+  <project path="hardware/qcom/power" name="Evervolv/android_hardware_qcom_power" revision="jellybean"/>
+  <project path="hardware/qcom/sensors" name="Evervolv/android_hardware_qcom_sensors" revision="jellybean" />
+  <project path="hardware/qcom/wlan" name="Evervolv/android_hardware_qcom_wlan" revision="jellybean" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />

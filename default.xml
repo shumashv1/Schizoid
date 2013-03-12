@@ -243,7 +243,6 @@
   <project path="hardware/qcom/audio" name="Evervolv/android_hardware_qcom_audio" revision="jellybean"/>
   <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" revision="jellybean"/>
   <project path="hardware/qcom/bt" name="Evervolv/android_hardware_qcom_bt" revision="jellybean" />
-  <project path="hardware/qcom/camera" name="Evervolv/android_hardware_qcom_camera" revision="jellybean"/>
   <project path="hardware/qcom/display" name="Evervolv/android_hardware_qcom_display" revision="jellybean"/>
   <project path="hardware/qcom/display-caf" name="Evervolv/android_hardware_qcom_display-caf" revision="jellybean"/>
   <project path="hardware/qcom/gps" name="Evervolv/android_hardware_qcom_gps" revision="jellybean"/>

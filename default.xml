@@ -247,6 +247,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media" revision="jellybean"/>
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960"  />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors"  />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan"  />
@@ -375,6 +376,7 @@
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/pac" name="shumashv1/android_vendor_pac" />
   <project path="vendor/google" name="PAC-man/android_vendor_google" />
+  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" revision="cm-10.1" />
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
 
   <!-- shumashv1 -->

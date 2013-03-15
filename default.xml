@@ -54,7 +54,7 @@
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" revision="jellybean" />
-  <project path="external/bluetooth/glib"name="CyanogenMod/android_external_bluetooth_glib" revision="jellybean" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" revision="jellybean" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />

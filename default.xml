@@ -328,10 +328,10 @@
   <!-- PAC -->
 
   <project groups="default" name="PAC-man/old_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />  
+  <project groups="default" name="PAC-man/old_frameworks_base" path="frameworks/base" />  
   <project groups="default" name="PAC-man/old_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
-  <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <project groups="default" name="PAC-man/old_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <!-- shumashv1 -->

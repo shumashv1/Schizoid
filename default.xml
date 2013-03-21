@@ -335,7 +335,7 @@
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <!-- shumashv1 -->
-  <project groups="default" name="shumashv1/Schizoid" path="android" revision="jellybean" />
+  <project groups="default" name="shumashv1/Schizoid" path="android" revision="exposed" />
   <project groups="default" name="shumashv1/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="jb" />
   <project groups="default" name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jb-camera" />
   <project groups="default" name="shumashv1/android_vendor_skz" path="vendor/skz" revision="jellybean"/>
@@ -347,5 +347,9 @@
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
 <!-- Misc -->
+  <project name="rovo89/XposedInstaller" path="packages/app/XposedInstaller" remote="github" revision="master" />
+  <project name="rovo89/XposedAppSettings" path="packages/app/XposedAppSettings" remote="github" revision="master" />
+  <project name="rovo89/XposedMods/XposedTweakbox" path="packages/app/XposedTweakbox" remote="github" revision="master" />
+  <project name="rovo89/XposedMods/XposedLibrary" path="packages/app/XposedLibrary" remote="github" revision="master" />
 
  </manifest>

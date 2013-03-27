@@ -347,10 +347,6 @@
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
 <!-- Misc -->
-  <project name="rovo89/XposedInstaller" path="packages/apps/XposedInstaller" remote="github" revision="master" />
-  <project name="rovo89/XposedAppSettings" path="packages/apps/XposedAppSettings" remote="github" revision="master" />
 
-<!--  <project name="rovo89/XposedMods/XposedTweakbox" path="packages/app/XposedTweakbox" remote="github" revision="master" />
-  <project name="rovo89/XposedMods/XposedLibrary" path="packages/app/XposedLibrary" remote="github" revision="master" /> -->
 
  </manifest>

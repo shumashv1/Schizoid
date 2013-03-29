@@ -39,7 +39,6 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -383,6 +382,7 @@
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
-   <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
+  <project path="frameworks/base" name="Evervolv/android_frameworks_base" revision="jellybean"/>
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
 
 </manifest>

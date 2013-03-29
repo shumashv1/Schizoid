@@ -327,6 +327,7 @@
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -383,7 +384,6 @@
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
-  <project path="android/platform_frameworks_base" name="frameworks/base" revision="master" />
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
 
 </manifest>

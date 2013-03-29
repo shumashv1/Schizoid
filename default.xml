@@ -39,6 +39,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -363,7 +364,6 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />

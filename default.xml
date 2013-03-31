@@ -244,9 +244,9 @@
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" revision ="jellybean"/>
+  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media" revision="jellybean" />
+<project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" /> 
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
@@ -378,7 +378,7 @@
 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="staging" />
-  <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="jellybean"/>
+  <project name="drmarble/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="10.1-ugly"/>
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 

@@ -53,8 +53,8 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
-  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" revision="jellybean" />
+  <project path="external/bluetooth/bluez" name="PecanCM/android_external_bluetooth_bluez" />
+  <project path="external/bluetooth/glib" name="PecanCM/android_external_bluetooth_glib"  />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -246,7 +246,8 @@
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" />
+  <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" /> 
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
@@ -255,9 +256,9 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
-<!--  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo"  /> -->
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="Evervolv/android_packages_apps_Bluetooth" revision="jellybean"/>
+  <project path="packages/apps/Bluetooth" name="PecanCM/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -327,7 +328,6 @@
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -364,7 +364,7 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
-<!--  <project path="frameworks/base" name="PAC-man/android_frameworks_base" /> -->
+  <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
@@ -379,11 +379,11 @@
 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="staging" />
-  <project name="drmarble/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="10.1-ugly"/>
+  <project name="drmarble/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="b10.1"/>
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
-  <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
+   <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
 
 </manifest>

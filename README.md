@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the Schizoid Tenderloin trees, use this command:
 
-    repo init -u git://github.com/shumashv1/Schizoid.git -b jellybean
+    repo init -u git://github.com/shumashv1/Schizoid.git -b staging
 
 Then to sync up (Schizoid defaults to -j16, so set it to something else if you want):
 
@@ -20,7 +20,7 @@ To build, make sure you're in your build directory, i.e. ~/android/skz, or whate
 
     . build/envsetup.sh (note the space between . and build)
 
-When that completes, type "lunch" and select the number corresponding to "skz_tenderloin-userdebug" (7 on mine)
+When that completes, type "lunch" and select the number corresponding to "skz_tenderloin-userdebug"
 
 Type "make bacon", wait a another LONG time while it compiles and builds.
 

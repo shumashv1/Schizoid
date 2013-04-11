@@ -379,7 +379,7 @@
 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="staging" />
-  <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.1"/>
+  <project name="drmarble/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="c10.1"/>
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 

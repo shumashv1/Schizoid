@@ -258,7 +258,7 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="cm42semc/android_packages_apps_Bluetooth_msm" />
+  <project path="packages/apps/Bluetooth" name="cm42semc/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />

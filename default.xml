@@ -378,7 +378,7 @@
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
 
   <!-- shumashv1 -->
-  <project name="shumashv1/Schizoid" path="android" revision="staging" />
+  <project name="shumashv1/Schizoid" path="android" revision="cm-10.1" />
   <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.1"/>
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />

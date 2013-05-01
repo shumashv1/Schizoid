@@ -32,6 +32,7 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/encore" name="CyanogenMod/android_device_encore" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
@@ -201,7 +202,7 @@
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
-  <project path="external/webkit" name="Evervolv/android_external_webkit" revision="jellybean" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
@@ -235,7 +236,6 @@
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
-  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan"  revision="jellybean" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
@@ -244,12 +244,17 @@
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old"/>
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.1_old"/> 
-  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
@@ -261,7 +266,7 @@
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" revision="jellybean" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
@@ -327,6 +332,10 @@
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -380,12 +389,10 @@
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
 
   <!-- shumashv1 -->
-  <project name="shumashv1/Schizoid" path="android" revision="cm-10.1" />
-  <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.1"/>
+  <project name="shumashv1/Schizoid" path="android" revision="cm-10.1_encore" />
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
-   <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
 
 </manifest>

@@ -32,7 +32,6 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/encore" name="CyanogenMod/android_device_encore" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
@@ -185,7 +184,7 @@
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
@@ -394,5 +393,6 @@
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
+  <project path="device/bn/encore" name="NookieDevs/android_device_bn_encore" />
 
 </manifest>

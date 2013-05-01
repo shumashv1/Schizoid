@@ -393,6 +393,5 @@
   <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
 
 <!-- Misc -->
-  <project path="device/bn/encore" name="NookieDevs/android_device_bn_encore" />
 
 </manifest>

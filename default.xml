@@ -204,7 +204,7 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="cm-10.1" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
@@ -384,8 +384,8 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/google" name="PAC-man/android_vendor_google" />
-  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" revision="cm-10.1" />
-  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
+  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="cm-10.1_encore" />

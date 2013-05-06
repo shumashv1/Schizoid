@@ -383,8 +383,7 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/google" name="PAC-man/android_vendor_google" />
-  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
-
+ 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="cm-10.1_encore" />
   <project name="shumashv1/android_vendor_skz" path="vendor/skz" />

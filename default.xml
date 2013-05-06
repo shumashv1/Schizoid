@@ -275,6 +275,7 @@
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
@@ -379,7 +380,6 @@
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/google" name="PAC-man/android_vendor_google" />
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" revision="cm-10.1" />
-  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" revision="cm-10.1" />
 
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="cm-10.1" />

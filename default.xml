@@ -381,7 +381,6 @@
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
-  <project path="vendor/google" name="PAC-man/android_vendor_google" />
  
   <!-- shumashv1 -->
   <project name="shumashv1/Schizoid" path="android" revision="cm-10.1_encore" />

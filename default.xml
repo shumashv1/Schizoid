@@ -366,7 +366,7 @@
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
-
+  <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" revision="jellybean" />
   <!-- PAC -->
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />

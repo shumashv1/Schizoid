@@ -56,7 +56,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" /> 
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -366,12 +366,12 @@
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
-  <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" revision="jellybean" />
+
   <!-- PAC -->
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
- <project path="packages/apps/HALO" name="PAC-man/HALO" revision="jellybean" />
+  <project path="packages/apps/HALO" name="PAC-man/HALO" revision="jellybean" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />

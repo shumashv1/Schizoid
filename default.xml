@@ -386,7 +386,7 @@
   <project path="vendor/cm" name="shumashv1/android_vendor_cm" />
 
 <!-- Misc -->
-   <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  
-<!--   <project path="external/compat-drivers" name="milaq/compat-drivers-3.9-rc4-2" revision="master" remote="github" /> -->  
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />
+<!--    <project path="external/compat-drivers" name="milaq/compat-drivers-3.9-rc4-2" revision="master" remote="github" /> -->    
 
 </manifest>

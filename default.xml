@@ -374,16 +374,16 @@
   <project path="packages/apps/HALO" name="PAC-man/HALO" revision="jellybean" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
-  <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
  
   <!-- shumashv1 -->
-  <project name="shumashv1/Schizoid" path="android" revision="cm-10.1" />
-  <project name="shumashv1/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.1"/>
-  <project name="shumashv1/android_vendor_skz" path="vendor/skz" />
-  <project name="shumashv1/android_vendor_cm" path="vendor/cm" />
+  <project path="android" name="shumashv1/Schizoid" />
+  <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin" />
+  <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" />
+  <project path="vendor/skz" name="shumashv1/android_vendor_skz" />
+  <project path="vendor/cm" name="shumashv1/android_vendor_cm" />
 
 <!-- Misc -->
    <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" />  

@@ -56,7 +56,10 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" /> 
+  <project path="external/bluetooth/bluez" name="android-bluez/external_bluetooth_bluez" remote="gitorious" revision="master"/>
+  <project path="external/bluetooth/glib" name="android-bluez/external_bluetooth_glib" remote="gitorious" revision="master"/>
+  <project path="external/bluetooth/hcidump" name="android-bluez/external_bluetooth_hcidump" remote="gitorious" revision="master"/>
+<!--  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" /> -->
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -260,7 +263,8 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="android-bluez/packages_apps_Bluetooth" remote="gitorious" revision="master"/>
+<!--  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" /> -->
   <project path="packages/apps/Browser" name="Evervolv/android_packages_apps_Browser" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />

@@ -387,6 +387,6 @@
 
 <!-- Misc -->
 <!--  <project path="external/compat-wireless-3.5-rc3-1-sn" name="TouchpadCM/compat-wireless-3.5-rc3-1-sn" revision="master" remote="github" /> -->
-   <project path="external/compat-drivers-3.9-rc4-2" name="jcsullins/compat-drivers-3.9-rc4-2" revision="master" remote="github" />    
+   <project path="external/backports-3.10-2" name="jcsullins/backports-3.10-2" revision="master" remote="github" />    
 
 </manifest>

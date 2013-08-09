@@ -293,7 +293,6 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/media-legacy" name="drmarble/android_hardware_qcom_media-legacy" revision="cm-10.2" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" />

@@ -369,7 +369,6 @@
   <project path="system/netd" name="android_system_netd" remote="cm" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="cm" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="cm" groups="pdk" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" />
 
   <!-- AOSP -->
@@ -443,8 +442,8 @@
   <!-- shumashv1 -->
   <project name="Schizoid" path="android" revision="cm-10.2" remote="skz" />
   <project name="milaq/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.2"/>
-  <project name="android_vendor_skz" path="vendor/skz" remote="skz" />
-  <project name="android_vendor_cm" path="vendor/cm" remote="skz" />
+  <project name="android_vendor_skz" path="vendor/skz" revision="cm-10.1" remote="skz" />
+  <project name="android_vendor_cm" path="vendor/cm" revision="cm-10.1" remote="skz" />
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old"/>

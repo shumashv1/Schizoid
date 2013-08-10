@@ -3,7 +3,7 @@
 
   <!-- Main remote for the PAC project -->
   <remote  name="pac"
-           fetch="."
+           fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
 
   <!-- Main remote for Android -->

@@ -445,8 +445,8 @@
   <project name="android_vendor_cm" path="vendor/cm" revision="cm-10.1" remote="skz" />
 
   <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" remote="github"/>
-  <project path="hardware/qcom/media-legacy" name="drmarble/android_hardware_qcom_media-legacy" revision="cm-10.2" />
+  <project path="hardware/qcom/display-legacy" name="drmarble/android_hardware_qcom_display-legacy" revision="cm-10.2" remote="github"/>
+  <project path="hardware/qcom/media-legacy" name="drmarble/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
    <project path="external/backports" name="jcsullins/backports-3.10-2" revision="master" remote="github" /> 
 
 </manifest>

@@ -233,7 +233,7 @@
   <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" />
   <project path="external/tcpdump" name="android_external_tcpdump" remote="cm" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" />
+  <project path="external/tinyalsa" name="milaq/android_external_tinyalsa" remote="github" revision="cm-10.1" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="cm" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" remote="cm" />
   <project path="external/tremolo" name="android_external_tremolo" remote="cm" />

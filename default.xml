@@ -415,7 +415,6 @@
 
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
-  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
   <project path="packages/apps/HALO" name="HALO" remote="pac" />
 
@@ -439,7 +438,7 @@
 
   <!-- shumashv1 -->
   <project name="Schizoid" path="android" revision="cm-10.2" remote="skz" />
-  <project name="drmarble/android_device_hp_tenderloin" path="device/hp/tenderloin" revision="cm-10.2-WIP"/>
+  <project name="android_device_hp_tenderloin" path="device/hp/tenderloin" remote="skz" />
   <project name="android_vendor_skz" path="vendor/skz" revision="cm-10.1" remote="skz" />
   <project name="android_vendor_cm" path="vendor/cm" revision="cm-10.1" remote="skz" />
 

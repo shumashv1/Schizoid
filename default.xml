@@ -440,7 +440,7 @@
   <!-- shumashv1 -->
   <project name="Schizoid" path="android" revision="cm-10.2" remote="skz" />
   <project name="android_device_hp_tenderloin" path="device/hp/tenderloin" remote="skz" />
-  <project name="android_vendor_skz" path="vendor/skz" revision="cm-10.1" remote="skz" />
+  <project name="android_vendor_skz" path="vendor/skz" remote="skz" />
   <project name="android_vendor_cm" path="vendor/cm" revision="cm-10.1" remote="skz" />
 
   <!-- Device extras: legacy support -->

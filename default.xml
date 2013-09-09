@@ -48,7 +48,7 @@
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" />
   <project path="bionic" name="android_bionic" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="cm-10.2-WIP"/>
+  <project path="bootable/recovery" name="drmarble/android_bootable_recovery" remote="github" revision="cm-10.2-WIP"/>
   <project path="dalvik" name="android_dalvik" remote="cm" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
@@ -244,7 +244,7 @@
   <project path="external/webkit" name="android_external_webkit" remote="cm" />
   <project path="external/webp" name="android_external_webp" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" remote="cm" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="cm-10.2-WIP" />
+  <project path="external/wpa_supplicant_8" name="drmarble/android_external_wpa_supplicant_8" remote="github" revision="cm-10.2-WIP" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" remote="cm" />
   <project path="external/xmp_toolkit" name="android_external_xmp_toolkit" remote="cm" />

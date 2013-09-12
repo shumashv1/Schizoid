@@ -25,21 +25,15 @@
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid"
            review="gerrit.androidninjas.com:8181" />
-
-  <!-- Other remotes -->
   <remote  name="skz"
            fetch="https://github.com/shumashv1" />
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex" />
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
            sync-j="16" />
 
-  <!-- SKZ manifest v2.3.0 for cm-10.1| 10-Aug-2013-->
+  <!-- SKZ manifest v3.0 for cm-10.2| 10-Sep-2013-->
 
   <!-- CM -->
   <project path="build" name="android_build" remote="cm" >
@@ -228,7 +222,6 @@
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
   <project path="external/stlport" name="android_external_stlport" remote="cm" />
-  <project path="external/strace" name="android_external_strace" remote="cm" />
   <project path="external/stressapptest" name="android_external_stressapptest" remote="cm" />
   <project path="external/svox" name="android_external_svox" remote="cm" />
   <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" />
@@ -311,6 +304,7 @@
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
@@ -432,7 +426,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="pac" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="pac" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="cm-10.1"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="pac" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" /> 
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" />

@@ -137,8 +137,8 @@
   <project path="external/junit" name="android_external_junit" remote="cm" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="cm" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" />
-  <project path="external/koush/ion" name="ion" remote="cm" />
-  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" />
+  <project path="external/koush/ion" name="ion" remote="github" revision="master" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="github" revision="master" />
   <project path="external/koush/Superuser" name="Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" remote="cm" />

@@ -432,10 +432,10 @@
   <project path="system/core" name="android_system_core" remote="pac" />
 
   <!-- shumashv1 -->
-  <project name="Schizoid" path="android" revision="cm-10.2" remote="skz" />
+  <project name="Schizoid" path="android" remote="skz" />
   <project name="android_device_hp_tenderloin" path="device/hp/tenderloin" remote="skz" />
   <project name="android_vendor_skz" path="vendor/skz" remote="skz" />
-  <project name="android_vendor_cm" path="vendor/cm" revision="cm-10.1" remote="skz" />
+  <project name="android_vendor_cm" path="vendor/cm" remote="skz" />
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="drmarble/android_hardware_qcom_display-legacy" revision="cm-10.2" remote="github"/>

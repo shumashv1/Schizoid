@@ -42,7 +42,7 @@
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" />
   <project path="bionic" name="android_bionic" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
-  <project path="bootable/recovery" name="drmarble/android_bootable_recovery" remote="github" revision="cm-10.2-WIP"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.1" />

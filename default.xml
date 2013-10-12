@@ -376,7 +376,7 @@
   <project path="system/core" name="PAC-man/android_system_core" />
  
   <!-- shumashv1 -->
-  <project path="build" name="shumashv1/android_build" >
+  <project path="build" name="CyanogenMod/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="shumashv1/Schizoid" />

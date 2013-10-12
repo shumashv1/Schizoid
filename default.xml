@@ -22,9 +22,6 @@
   <!-- SKZ manifest v2.0.0 for cm-10.1| 11-Mar-2013-->
 
   <!-- CM -->
-  <project path="build" name="PAC-man/android_build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -379,6 +376,9 @@
   <project path="system/core" name="PAC-man/android_system_core" />
  
   <!-- shumashv1 -->
+  <project path="build" name="shumashv1/android_build" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="android" name="shumashv1/Schizoid" />
   <project path="device/hp/tenderloin" name="shumashv1/android_device_hp_tenderloin" />
   <project path="packages/apps/Settings" name="shumashv1/android_packages_apps_Settings" />

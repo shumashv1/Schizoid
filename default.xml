@@ -36,7 +36,7 @@
   <!-- SKZ manifest v3.0 for cm-10.2| 10-Sep-2013-->
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="skz" >
+  <project path="build" name="android_build" remote="cm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" />

@@ -4,14 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-
   <remote  name="private"
            fetch="ssh://git@github.com" />
-
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"

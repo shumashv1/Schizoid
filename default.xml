@@ -422,7 +422,7 @@
   <project name="Schizoid" path="android" remote="skz" />
   <project name="android_device_hp_tenderloin" path="device/hp/tenderloin" remote="skz" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="skz" revision="jellybean"/>
-  <project path="packages/apps/ROMControl" name="android_packages_apps_ROMControl" remote="aokp" revision="jb-mr2"/>
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr2"/>
   <project path="packages/apps/HALO" name="HALO" remote="pac" />
   <project name="android_vendor_skz" path="vendor/skz" remote="skz" />
   <project name="android_vendor_cm" path="vendor/cm" remote="skz" />

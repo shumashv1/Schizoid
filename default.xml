@@ -217,7 +217,7 @@
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/tinyalsa" name="milaq/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinyalsa" name="drmarble/android_external_tinyalsa" revision="cm-10.2-WIP"groups="pdk" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" />

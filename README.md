@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the Schizoid Tenderloin trees, use this command:
 
-    repo init -u git://github.com/shumashv1/Schizoid.git -b staging
+    repo init -u git://github.com/shumashv1/Schizoid.git -b cm-10.1
 
 Then to sync up (Schizoid defaults to -j16, so set it to something else if you want):
 
